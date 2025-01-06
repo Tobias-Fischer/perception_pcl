@@ -45,7 +45,8 @@ if(NOT "${PCL_LIBRARIES}" STREQUAL "")
     "vtkGUISupportQtSQL"
     "vtkGUISupportQtWebkit"
     "vtkViewsQt"
-    "vtkRenderingQt")
+    "vtkRenderingQt"
+    "lz4")
 endif()
 
 # There is a bug in the Ubuntu Artful (17.10) version of the VTK package,
